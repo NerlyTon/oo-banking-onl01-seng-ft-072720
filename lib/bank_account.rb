@@ -30,6 +30,7 @@ class BankAccount
     @status = "closed"
   end
   
-  def withdrawal
+  def withdrawal(amount)
     self.balance -= amount
+  end
 end
