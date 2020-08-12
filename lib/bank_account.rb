@@ -31,5 +31,5 @@ class BankAccount
   end
   
   def withdrawal
-    
+    self.balance -= amount
 end
